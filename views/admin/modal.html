@@ -1,0 +1,86 @@
+<div class="container">
+  <div class="row" id="notifications-wrapper">
+    <div id="notifications" class="span8 offset2 notifications animated">
+      <div id="dismiss-all" class="dismiss-all button blue">
+        Dismiss all
+      </div>
+      <div id="content">
+          <div id="notes"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modal" class="black-box modal hide fade" style="display: none;" aria-hidden="true">
+    <div class="modal-header tab-header">
+      <button type="button" class="close" data-dismiss="modal">
+        ×
+      </button>
+      <span>
+        Domain Name
+      </span>
+    </div>
+    <div class="modal-body separator">
+      <h4>
+        + New Domain Name
+      </h4>
+      <p>
+        Here you can add a new Domain Name.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <div class="inner-well">
+        <span class="x_dname_ctn">
+          <input placeholder="your domain..." type="text" />
+        </span>
+
+        <a class="x_close_btn button mini rounded light-gray" data-dismiss="modal">
+          Close
+        </a>
+        <a id="x_addDomain_btn" class="button mini rounded blue">
+          Save
+        </a>
+      </div>
+    </div>
+</div>
+<div id="modal-gallery" class="black-box modal modal-gallery hide fade">
+  <div class="modal-header tab-header">
+    <button type="button" class="close" data-dismiss="modal">
+      ×
+    </button>
+    <span class="modal-title">
+    </span>
+  </div>
+  <div class="modal-body">
+    <div class="modal-image">
+    </div>
+  </div>
+  <div class="modal-footer">
+    <div class="pull-left">
+      You can also change the images
+      <br>
+      by scrolling the mouse wheel!
+    </div>
+    <div class="pull-right">
+      <a class="button blue modal-next">
+        Next
+        <i class="icon-arrow-right icon-white">
+        </i>
+      </a>
+      <a class="button gray modal-prev">
+        <i class="icon-arrow-left icon-white">
+        </i>
+        Previous
+      </a>
+      <a class="button green modal-play modal-slideshow" data-slideshow="5000">
+        <i class="icon-play icon-white">
+        </i>
+        Slideshow
+      </a>
+      <a class="button black" target="_blank">
+        <i class="icon-download">
+        </i>
+        Download
+      </a>
+    </div>
+  </div>
+</div>
